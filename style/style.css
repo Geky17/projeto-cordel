@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;}
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-size: 3vw; 
+        box-sizing: border-box;
+    }
+    
+    header{
+        background-color: black;
+        color: white;
+        padding-top: 66px;
+        text-align: center;
+    }
+    
+    header>h1{
+        background-color: black;
+         color: white;
+        font-size: 7vw;
+       
+    }
+
+    header>h2{
+        text-align: center;
+        font-family: var(--fonte1);
+        font-size: 1vw;
+        padding-bottom: 49px;
+    }
+   
+    h2>a{
+        font-size:  1vw;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        padding: 2px 6px;
+    }
+
+    section {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+        font-family: var(--fonte3);
+        font-size: 3.5vw;
+    }
+    
+    section.normal{
+        font-family: var(--fonte2);  
+        line-height: 2em;
+        font-weight: bold;
+        padding-left: 30px;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        font-size: 3.5vw;
+    }
+   
+    section#img01 {
+        background-image: url(../imagens/background001.jpg);
+        background-position: right center;
+        background-attachment: fixed;
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    }
+    
+
+    section.imagem>p{
+        font-family: var(--fonte2);
+        display: inline-block;
+        padding: 2px;
+        background-color: rgba(0, 0, 0, 0.466);
+        color: white;
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+        background-size: cover;
+        background-attachment: fixed;
+       
+    }
+
+    section#img02 {
+        background-image: url(../imagens/background002.jpg);
+        background-position: right center;
+        background-attachment: fixed;
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    }
+    
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    footer>a{
+        text-decoration: none;
+        color: white;
+    }
